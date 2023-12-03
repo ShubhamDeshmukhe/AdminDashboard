@@ -134,7 +134,10 @@ const Dashboard = () => {
               .filter((users) => {
                 if ("setSearch" === "") return users;
                 else if (
-                  users.id.includes(search)
+                  users.id.includes(search) ||
+                  users.name.includes(search) ||
+                  users.email.includes(search) ||
+                  users.role.includes(search)
                 ) {
                   return users;
                 }
