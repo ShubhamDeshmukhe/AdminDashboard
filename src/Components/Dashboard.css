@@ -1,0 +1,47 @@
+input[type=checkbox] {
+  transform: scale(1.5);
+  -ms-transform: scale(1.5);
+  -webkit-transform: scale(1.5);
+  align-items: center;
+  justify-content: center;
+  margin-left: 8px;
+  margin-top: 5px;
+}
+
+th{
+  background: #f2f2f2 !important; 
+};
+
+.pagination {
+  display: flex;
+  list-style: none;
+  padding: 0;
+}
+
+.pagination-button {
+  margin: 0 5px;
+  padding: 7px 12px;
+  font-size: 14px;
+  font-weight: bold;
+  text-align: center;
+  text-decoration: none;
+  border: 1px solid #007bff;
+  color: #007bff;
+  background-color: #fff;
+  border-radius: 5px;
+  cursor: pointer;
+  margin-left: 2px;
+  margin-right: 2px; 
+}
+
+.pagination-button:hover {
+  background-color: #0056b3; 
+  border-color: #0056b3; 
+  color: #ffffff; 
+}
+
+.current_Page {
+  background-color: #0056b3; 
+  border-color: #0056b3; 
+  color: #ffffff; 
+}
